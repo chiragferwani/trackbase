@@ -50,6 +50,8 @@ Open http://localhost:3000 and sign in with Google.
 
 ### 3. Install the SDK
 
+The TrackBase SDK is officially published on npm: [trackbase](https://www.npmjs.com/package/trackbase)
+
 ```bash
 npm install trackbase
 ```
