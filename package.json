@@ -1,0 +1,15 @@
+{
+  "name": "trackbase-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:api": "npm run dev --workspace=apps/api",
+    "dev:sdk": "npm run dev --workspace=packages/sdk",
+    "build:sdk": "npm run build --workspace=packages/sdk",
+    "start:api": "npm run start --workspace=apps/api"
+  }
+}
