@@ -1,18 +1,21 @@
+<div align="center">
+  <img src="./apps/trackbase-logo.png" alt="TrackBase Logo" width="150" />
+</div>
+
 # TrackBase
 
-![TrackBase Logo](./apps/trackbase-logo.png)
+**User tracking without the backend. Open-source.**
 
-**User tracking without the backend.**
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![NPM Version](https://img.shields.io/npm/v/trackbase.svg)](https://www.npmjs.com/package/trackbase)
+[![Next.js](https://img.shields.io/badge/Next.js-16-black.svg)](https://nextjs.org/)
 
-Track user signups and view analytics using **Google Sheets** as your database. No infrastructure required for your end-user data.
+📊 **User tracking without the backend** — Track user signups and view analytics using **Google Sheets** as your database. No infrastructure required for your end-user data.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-## What is TrackBase?
-
-TrackBase is an open-source developer tool that helps you track users without setting up Firebase, Supabase, Auth0, databases, or authentication infrastructure.
-
-**Core idea:** Create a project → connect a Google Sheet → get an API key → call `identify()` when users sign up → rows appear in your sheet.
+- **Fast Setup?** — Get started in under 5 minutes without configuring Firebase, Supabase, Auth0, or custom databases.
+- **Own Your Data?** — Yes. User data goes directly to your Google Sheet. TrackBase never becomes a primary storage layer.
+- **Easy API?** — Yes. Initialize the SDK and call `identify()` — rows magically appear in your sheet.
+- **How it works?** — Create a project → connect a Google Sheet → get an API key → call `identify()` when users sign up → rows appear in your sheet.
 
 ## Quick Start
 
